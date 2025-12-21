@@ -1,5 +1,5 @@
 # 김승민 | 경험을 설계하고 코드로 구현합니다.
-[![Email](https://img.shields.io/badge/smin2020@icloud.com-007EC6?style=flat-square&logo=icloud&logoColor=white)](mailto:smin2020@icloud.com)
+[![Email](https://img.shields.io/badge/me@kimseungmin.dev-007EC6?style=flat-square)](mailto:me@kimseungmin.dev)
 
 서울예술대학교에서 영화와 모션그래픽으로 사용자의 감정선을 설계하는 법을 배웠으며, 이제는 프론트엔드를 통해 그 경험을 현실로 구현합니다. 코드와 디자인의 경계에서 기술적 한계를 창의적으로 돌파하며, 기억에 남는 서비스를 만드는 데 가치를 둡니다.
 
