@@ -1,40 +1,40 @@
-# 김승민 | 경험을 설계하고 코드로 구현합니다.
-[![Email](https://img.shields.io/badge/me@kimseungmin.dev-007EC6?style=flat-square)](mailto:me@kimseungmin.dev)
+# 김승민
+[![Email](https://img.shields.io/badge/Email-me@kimseungmin.dev-007EC6?style=flat-square)](mailto:me@kimseungmin.dev)
+[![Website](https://img.shields.io/badge/Blog-kimseungmin.dev-black?style=flat-square)](https://kimseungmin.dev)
+<br>
+<br>
+사용자의 감각을 설계하고, 견고한 엔지니어링으로 그 경험을 지속 가능하게 만듭니다.<br>
+<br>
+<br>
 
-서울예술대학교에서 영화와 모션그래픽으로 사용자의 감정선을 설계하는 법을 배웠으며, 이제는 프론트엔드를 통해 그 경험을 현실로 구현합니다. 코드와 디자인의 경계에서 기술적 한계를 창의적으로 돌파하며, 기억에 남는 서비스를 만드는 데 가치를 둡니다.
+## 프로젝트
 
----
+### Engineering & Systems
 
-### A. 문제 해결 중심 프로젝트
+> 인프라 구축, 라이브러리 개발, 시스템 최적화
 
-단순한 기능 구현을 넘어, 복잡한 문제를 해결하고 비즈니스 가치를 창출한 핵심 프로젝트들입니다.
+| Project                                                                       | Description                                                                                                                                                                                                                              | Stack                                      |
+| :---------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------- |
+| **[korean-markdown-fixer](https://github.com/sngminn/korean-markdown-fixer)** | **한국어 마크다운 렌더링 보정 라이브러리**<br>• 정규표현식 설계 및 NPM 배포<br>• Vitest 테스트 커버리지 100% 달성                                                                                                                        | `TypeScript`<br>`NPM`<br>`Vitest`          |
+| **[리뷰팝](https://github.com/sngminn/reviewpop)**                            | **500만 유저 앱 '데이트팝' 신규 웹 서비스**<br>• FSD 및 MSW 구조 개선<br>• 메인 페이지 개발<br>• DBML 스키마 작성                                                                                                                        | `Next.js 16`<br>`React 19`<br>`TypeScript` |
+| **[Home Server & CI/CD](https://github.com/sngminn/me)**                      | **자체 호스팅 & 자동화 인프라 구축**<br>• 미사용 노트북을 활용한 Linux 서버 및 Docker 배포 환경<br>• 클라우드 비용 '0원' 구축 <br>• 효율적 개발을 위한 AI 코드 커밋/PR/리뷰 봇 개발<br>• Figma Variables → CSS 자동 변환 파이프라인 구축 | `Linux`<br>`Docker`<br>`Github Actions`    |
 
-| 프로젝트 | 문제 | 해결 | 결과 |
-| :--- | :--- | :--- | :--- |
-| **[어디가냥 (팀장)](https://github.com/KingsMinn/Meowhere-Deploy)** | 모바일 환경의 심각한 3D 렌더링 성능 저하 (5MB+) 및 파편화된 UX (3-step 탐색) | Blender를 통한 3D 모델 80% 경량화 및 Three.js 최적화, GNB/BNB 필터 통합 설계 | **렌더링 성능 80% 개선**, **핵심 정보 탐색 1단계로 단축** |
-| **[FANDON-K](https://github.com/KingsMinn/Fandom-K)** | 과도한 Scroll 이벤트로 인한 랜딩페이지 애니메이션 성능 저하 (4.45초) | `Framer Motion`의 `useScroll`, `useTransform`을 활용한 60fps 렌더링 최적화 | **애니메이션 처리 속도 9.47배 향상** (0.47초), 부드러운 UX 확보 |
-| **[WIKIED (팀장)](https://github.com/KingsMinn/Wikied-Distribution)** | 팀원의 실수로 인한 Git 히스토리 유실 긴급 상황 발생 | `git reset`의 위험성을 인지하고 `git revert`를 통한 안전한 복구 전략 제시 및 실행 | **30분 내 코드 손실 없이 100% 복구**, 팀 Git 가이드라인 제작으로 재발 방지 |
+<br>
 
----
+### Interaction & Web 3D
 
-### B. 목적 기반 기술 스택
+> 몰입감 있는 사용자 경험, 3D/인터랙션 구현
 
-최고의 사용자 경험을 만들기 위해, 목적에 맞는 도구를 전략적으로 선택하고 사용합니다.
+| Project                                                    | Description                                                                                                                        | Stack                                            |
+| :--------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------- |
+| **[어디가냥](https://github.com/sngminn/Meowhere-Deploy)** | **체험 예약 플랫폼**<br>• 모바일 웹 3D 성능 최적화 (모델 80% 경량화)<br>• 파편화된 필터 UI 통합 및 UX 개선<br>• 인터랙티브한 UI/UX | `Three.js`<br>`R3F`<br>`Blender`                 |
+| **[FANDOM-K](https://github.com/sngminn/Fandom-K)**        | **K-POP 투표 플랫폼**<br>• 스크롤 기반 인터랙티브 스토리텔링 구현<br>• 모바일 환경 60fps 애니메이션 성능 방어                      | `Framer Motion`<br>`React`<br>`Styled-component` |
 
-| 분류 | 기술 |
-| :--- | :--- |
-| **확장 가능한 UI 구축** | `JavaScript`, `TypeScript`, `React`, `Next.js` |
-| **몰입형 인터랙션 구현** | `Three.js`, `React Three Fiber`, `Framer Motion`, `Matter.js`, `Lottie` |
-| **상태 관리 및 스타일링** | `Zustand`, `Context API`, `Tailwind CSS`, `Styled Components` |
-| **디자인 및 프로토타이핑** | `Figma`, `Blender`, `AfterEffects`, `Photoshop` |
-| **팀워크 및 배포** | `Git`, `Vercel`, `NextAuth.js` |
+<br>
 
----
+## Technical Skills
 
-### C. 리더십과 프로세스 개선
-
-좋은 코드는 좋은 협업 문화에서 나온다고 믿습니다. 팀 전체의 생산성과 안정성을 높이기 위해 다음과 같은 노력을 했습니다.
-
--   **AI 코드리뷰 도입**: `Gemini Code Assist`를 활용하여 단순 피드백 과정을 자동화하고, 팀이 핵심 로직 리뷰에 집중할 수 있는 환경을 조성했습니다.
--   **협업 가이드라인 제작**: Git 히스토리 충돌 해결 경험을 바탕으로, 팀 내 재발 방지를 위한 명확한 Git 가이드라인을 작성하고 배포하여 협업 안정성을 강화했습니다.
--   **디자인 시스템 구축**: Figma 컴포넌트 구조 재설계, Z-Index 가이드 및 모션 가이드 정의를 통해 디자인-개발 워크플로우를 최적화하고 서비스 전체의 UI 일관성을 확보했습니다.
+- **Languages:** JavaScript, TypeScript, HTML, CSS
+- **Frameworks:** React, Next.js
+- **Interaction:** Three.js, React Three Fiber, Framer Motion, GSAP
+- **Engineering:** Git, Docker, Linux, GitHub Actions, Vercel
