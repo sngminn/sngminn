@@ -3,7 +3,7 @@
 [![Website](https://img.shields.io/badge/Blog-kimseungmin.dev-black?style=flat-square)](https://kimseungmin.dev)
 <br>
 <br>
-사용자의 감각을 설계하고, 견고한 엔지니어링으로 그 경험을 지속 가능하게 만듭니다.<br>
+디자인 시스템을 코드로 통역하고, 개발 병목을 기술로 자동화합니다.<br>
 <br>
 <br>
 
@@ -13,11 +13,11 @@
 
 > 인프라 구축, 라이브러리 개발, 시스템 최적화
 
-| Project                                                                       | Description                                                                                                                                                                                                                              | Stack                                      |
-| :---------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------- |
-| **[korean-markdown-fixer](https://github.com/sngminn/korean-markdown-fixer)** | **한국어 마크다운 렌더링 보정 라이브러리**<br>• 정규표현식 설계 및 NPM 배포<br>• Vitest 테스트 커버리지 100% 달성                                                                                                                        | `TypeScript`<br>`NPM`<br>`Vitest`          |
-| **[리뷰팝](https://github.com/sngminn/reviewpop)**                            | **500만 유저 앱 '데이트팝' 신규 웹 서비스**<br>• FSD 및 MSW 구조 개선<br>• 메인 페이지 개발<br>• DBML 스키마 작성                                                                                                                        | `Next.js 16`<br>`React 19`<br>`TypeScript` |
-| **[Home Server & CI/CD](https://github.com/sngminn/me)**                      | **자체 호스팅 & 자동화 인프라 구축**<br>• 미사용 노트북을 활용한 Linux 서버 및 Docker 배포 환경<br>• 클라우드 비용 '0원' 구축 <br>• 효율적 개발을 위한 AI 코드 커밋/PR/리뷰 봇 개발<br>• Figma Variables → CSS 자동 변환 파이프라인 구축 | `Linux`<br>`Docker`<br>`Github Actions`    |
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| **[korean-markdown-fixer](https://github.com/sngminn/korean-markdown-fixer)** | **한국어 마크다운 렌더링 보정 라이브러리**<br>• 정규표현식 알고리즘 설계 및 NPM 배포<br>• Vitest 기반 엣지 케이스 테스트 커버리지 100% 달성 | `TypeScript`<br>`NPM`<br>`Vitest` |
+| **[리뷰팝 (ReviewPop)](https://github.com/sngminn/reviewpop)** | **500만 유저 앱 '데이트팝' 신규 웹 서비스**<br>• FSD 아키텍처 도입 및 MSW 모킹 환경 구축<br>• DBML 기반 데이터 스키마 선제적 설계 및 제안<br>• 핵심 도메인 로직 및 UI 시스템 구현 | `Next.js 16`<br>`React 19`<br>`TypeScript` |
+| **[Home Server & Ops](https://github.com/sngminn/me)** | **자체 호스팅 & 생산성 자동화 파이프라인**<br>• **[commit-cat](https://github.com/sngminn/commit-cat)** 개발: AI 기반 커밋 메시지/코드 리뷰 자동화 CLI<br>• 홈서버를 활용한 On-premise Linux 서버 및 Docker 무중단 배포<br>• Figma Variables → CSS 자동 변환 파이프라인 구축 | `Linux`<br>`Docker`<br>`Github Actions` |
 
 <br>
 
